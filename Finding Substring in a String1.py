@@ -4,6 +4,7 @@ b = input("Enter Finding Substring or Letter:")
 flag = False
 
 count = 0
+
 j = 0
 
 for i in range(0,len(a)):
