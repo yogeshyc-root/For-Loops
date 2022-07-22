@@ -19,7 +19,7 @@ for i in range(0,len(a)):
                 break
         if(flag):
             count+=1
-    
+   
 if (not flag):
     print("Not Found")
 print(temp,count)
