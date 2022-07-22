@@ -8,5 +8,9 @@ if(a>1):
             print("Not Prime")
             flag = True
             break
+elif(a==1):
+    print("1 is Prime")
+else:
+    print("Enter Number above 1 or Positive Integer Only")
 if(not flag):
     print("Prime")
