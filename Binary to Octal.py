@@ -1,4 +1,4 @@
-#Binary to Octal
+#Binary to Octal Conversion
 
 n = input("Enter Number : ")
 sum = 0
