@@ -17,12 +17,11 @@ for i in range(0,n):
     if(n==0):
         break
 new = sum
-print(new)
+
 b = []
 for i in range(0,new):
     rem = new%16
     new//=16
-    print("----->",rem)
     if(rem>9):
         if(rem==10):
             b.append('A')
