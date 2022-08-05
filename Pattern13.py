@@ -14,3 +14,4 @@ for j in range(0,n):
     print(temp1)
     temp = temp1
     temp1 = []
+    
