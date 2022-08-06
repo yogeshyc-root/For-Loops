@@ -5,7 +5,7 @@ temp = [1]
 temp1=[]
 print(n*' ',temp)
 for j in range(0,n):
-    for i in range(j,n):
+    for i in range(j,n+2):
         print(" ",end='')
     temp1.append(1)
     for i in range(1,len(temp)):
