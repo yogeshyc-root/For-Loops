@@ -10,7 +10,6 @@ for j in range(0,n):
     temp1.append(1)
     for i in range(1,len(temp)):
         temp1.append(2**i)
-    # temp1.append(1)
     d = len(temp1)
     for i in range(d-1,-1,-1):
         temp1.append(temp1[i-1])
