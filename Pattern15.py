@@ -1,21 +1,17 @@
 #Power of 2 Pattern
 
 n = int(input("Enter Number : "))
-temp = [1]
-temp1=[]
-print(n*' ',temp)
-for j in range(0,n):
-    for i in range(j,n+2):
-        print(" ",end='')
-    temp1.append(1)
-    for i in range(1,len(temp)):
-        temp1.append(2**i)
-    d = len(temp1)
-    for i in range(d-1,-1,-1):
-        temp1.append(temp1[i-1])
-        d+=1
-        if(d!=len(temp)):
-            break
-    print(temp1)
-    temp = temp1
-    temp1 = []
+
+a = 0
+
+for i in range(0,n):
+    a = 0
+    for j in range(i,n):
+        print(" ",end = " ")
+    for j in range(1,i+1):
+        print(2**a,end = " ")
+        a = j
+    for j in range(i+1):
+        print(2**a,end=" ")
+        a-=1
+    print()
