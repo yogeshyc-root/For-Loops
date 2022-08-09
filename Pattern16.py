@@ -1,15 +1,14 @@
 # Pattern Matrix
 
-# n = int(input("Enter Number : "))
-n = 5
+n = int(input("Enter Number : "))
 a = 0
-b = 0
+b = -1
 for i in range(0,n):
-    b+=1
+    a=b+1
     for j in range(0,n):
         print(a,end="")
         a+=1
         if(a==n):
             a=0
     print()
-    a=b+1
+    b+=1
