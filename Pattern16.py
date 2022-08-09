@@ -13,6 +13,5 @@ for i in range(0,n):
             a=0
         if(a==n):
             a=0
-
     print()
     b+=1
