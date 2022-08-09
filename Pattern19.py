@@ -1,4 +1,4 @@
-# Pattern odd number of rows
+# Pattern Pyramid of Digits
 
 # n = int(input("Enter Number : "))
 n = 5
