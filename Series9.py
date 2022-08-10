@@ -4,16 +4,16 @@ x = int(input("Enter X Value : "))
 n = int(input("Enter Limit : "))
 
 sum = 1
-fact = 1
+a = 2
 
-for i in range(0,n):
-    for j in range(1,i):
-        fact = fact*j
-        print(fact)
+for i in range(2,n+1):
+    fact = 1
+    for j in range(2,a+1):
+        fact  = fact * j
     if(i%2==0):
-        sum = sum + ((x**i)/fact)
-        print("+------------->",sum)
+        sum = sum - ((x**a)/fact)
+        a+=2
     else:
-        sum = sum - ((x**i)/fact)
-        print("'-'------------->",sum)
+        sum = sum + ((x**a)/fact)
+        a+=2
 print(sum)
