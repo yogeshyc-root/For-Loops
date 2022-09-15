@@ -1,3 +1,6 @@
+# Python Program to find position of n\'th multiple of a number k in Fibonacci Series
+
+
 def findPosition(k, n):
     f1 = 0
     f2 = 1
@@ -13,6 +16,6 @@ def findPosition(k, n):
         i+=1
         print(i)
 n = 5
-k = 6
+k = 4
 
 print(findPosition(k,n))
